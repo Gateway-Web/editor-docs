@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'gateway',
-  tagline: 'Headless CMS tools for modern web experiences',
+  title: 'gateway / editor',
+  tagline: 'headless cms visual editor',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
