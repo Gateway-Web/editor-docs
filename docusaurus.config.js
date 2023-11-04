@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://wwww.gatewayweb.io',
+  url: 'https://wwww.gatewayweb.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/docs/',
@@ -69,12 +69,17 @@ const config = {
         logo: {
           alt: 'gateway web',
           src: 'img/gateway-square.png',
-          href: 'https://www.gatewayweb.io',
+          href: '/intro',
         },
         items: [
           {
             href: 'https://www.npmjs.com/package/@gateway-web/editor',
             label: 'npm',
+            position: 'right',
+          },
+          {
+            href: 'https://www.gatewayweb.io/',
+            label: 'get started',
             position: 'right',
           },
         ],
