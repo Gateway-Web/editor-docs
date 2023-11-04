@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import {CheckIcon,BoltIcon,CheckCircleIcon} from '@heroicons/react/24/outline'
+import {CheckIcon, BoltIcon, CheckCircleIcon} from '@heroicons/react/24/outline'
 
 const FeatureList = [
   {
