@@ -2,8 +2,8 @@
 sidebar_position: 1.1
 ---
 
-# Editor configuration
-Let's go back to the configuration file we created in the previous step. This file should export a default configuration object. If you're using TypeScript, you can import the types from our package.
+# Editor
+If you haven't created a configuration file yet, let's create one now. This is the file we imported when creating the [editor page](/get-started/installation#editor) in the previous step. This file should export an object containing the configuration values defined below.
 
 ## Configuration values
 
@@ -64,14 +64,15 @@ Content models to "link" instead of trying to create when using presets. For exa
 
 ## Example
 
+In this example, `EditorPage` is what we created [here](/get-started/editor-pages#page-example).
+
 ```
-import { EditorConfig } from "@gateway-web/editor";
 
 import EditorPage from "./editor-page";
 
-const config: EditorConfig = {
+export default {
   provider: "hygraph",
-  projectId: "fb7b3448-ef31-40cb-aede-2311dca839c0",
+  projectId: "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
   locales: ["en", "de", "fr"],
   defaultLocale: "en",
   contentTypes: {
@@ -88,4 +89,18 @@ const config: EditorConfig = {
   basePath: "/compoz",
 };
 
+```
+
+## TypeScript Example
+
+```
+import { EditorConfig } from "@gateway-web/editor";
+
+import EditorPage from "./editor-page";
+
+const config:EditorConfig = {
+  ...
+};
+
+export default config;
 ```

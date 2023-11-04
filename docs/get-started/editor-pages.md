@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 # Editor Pages
-Editor pages are actually what you see in the visual editor. The setup is easy - we provide a wrapper component that handles everything for you.
+Editor pages are actually what you see in the visual editor. It is only required when a content model ends up a page on your website (think pages, blogs etc). The setup is easy - we provide a wrapper component that handles everything for you.
 
 ## Compozer
 Our `Compozer` wrapper component is where the magic happens. It handles connecting the data from your CMS to your frontend component and keeping everything up to date.
@@ -16,7 +16,7 @@ Our `Compozer` wrapper component is where the magic happens. It handles connecti
 
 
 ## Example
-The example below is a web page with a **Hero** and multiple **Sections** that make up the content of the page. The header and footer are *not* able to be visually edited, so they do not use `Compozer`.
+The example below is a web page with a **Hero** and multiple **Sections** that make up the content of the page. The header and footer are not using `Compozer` so they will not be editable in this example.
 
 ### Page Example
 ```

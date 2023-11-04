@@ -1,0 +1,8 @@
+{
+  "label": "Advanced Configuration",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Setup additional features like presets and paths. Some of these require a paid plan to work."
+  }
+}
